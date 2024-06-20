@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8"
+    <title>Recherche DE RESTAURANT</title>
+    <style>
+
+        body {
+            font-family: sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        label{
+            display: block;
+            margin-bottom:5px ;
+
+        }
+        input[type="text"] {
+            width: 200px;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solide #ccc;
+        }
+        .credit-info {
+            margin-top: 10 px;
+            body{
+            font-family: Arial,  sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #f4f4;
+            color: #aff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+    padding: 20px;
+        }
+        table  {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #da4;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #33d;
+            color: rgba(160, 20, 130, 0.867);
+        }
+        footer{
+            background-color: #33d;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <H1>recherche RESTAURANT paris</H1>
+    </header>
+
+    <section>
+        <h2>votre panier</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>produits</th>
+                    <th>prix unitaire</th>
+                    <th>quantite</th>
+                    <th>total</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <p>total: <span id="total">0.00</span> $</p>
+
+        <button onclick="passercommande">passer la commande</button>
+    </section>
+    <footer>
+        <p>formulaire de recherche</p>
+    </footer>
+
+    <script>
+        function passercommande() {
+           document.getElementById("Commande Passer avec succes");
+        } 
+        }
+        <a class="nav-link" href="formulaire des recherche.html">HISTORIQUES</a>
+    </style>
+    
+</html>
